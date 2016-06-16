@@ -1,0 +1,26 @@
+{
+  "name": "electron-webview-url",
+  "version": "0.0.1",
+  "description": "bug demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zhuangya/electron-webview-src.git"
+  },
+  "keywords": [
+    "electron",
+    "bug"
+  ],
+  "author": "Ya Zhuang <zhuangya@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhuangya/electron-webview-src/issues"
+  },
+  "homepage": "https://github.com/zhuangya/electron-webview-src#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.3"
+  }
+}

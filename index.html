@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>electron page</title>
+  </head>
+  <body>
+    <webview id="target" src="https://everphoto.cn/" autoresize="on" nodeintergration plugins style="min-width: 100vw; min-height: 100vh;"></webview>
+    <script>
+      const webapp = document.getElementById('target');
+      webapp.addEventListener('did-start-loading', event => {
+        console.log('webapp.url: ', webapp.url);
+        console.log(webapp.getURL());
+      });
+    </script>
+  </body>
+</html>
